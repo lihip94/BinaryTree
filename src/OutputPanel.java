@@ -26,7 +26,7 @@ public class OutputPanel extends JPanel {
         g.fillOval(x, y,40,40);
         g.setColor(Color.BLACK);
         String a = String.valueOf(current.value);
-        g.drawString(a,x+10,y+25);
+        g.drawString(a,x+13,y+25);
         if(current.right!= null){
             g.setColor(Color.DARK_GRAY);
             g.drawLine(x+20,y+40,x +20 + subTree/2,y+60);
